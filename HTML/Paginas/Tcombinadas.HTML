@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../paratodo.CSS">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>Tablas combinadas</h1>
+    <div id="contenedor">
+        <hr><br>
+        <table border="1" id="texto">
+            <caption>Tabla Combinada Columnas</caption>
+            <thead>
+                <tr>
+                <th>Columna1</th>
+                <th>Columna2</th>
+                <th>Columna3</th>
+                <th>Columna4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">Dato1</td>
+                    <td colspan="2">Dato2</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Dato3</td>
+                    <td>Dato4</td>
+                </tr>
+                <tr>
+                    <td colspan="4" >Dato5</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <table border="1" id="texto">
+            <caption>Tabla Combinada Filas</caption>
+            <thead>
+               <tr>
+                <th> Columna1</th>
+                <th> Columna2</th>
+                <th> Columna3</th>
+                <th> Columna4</tr>
+               </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Dato1</td>
+                    <td>Dato2</td>
+                    <td rowspan="2">Dato3</td>
+                    <td>Dato4</td>
+                </tr>
+                <tr>
+                    <td>dato5</td>
+                    <td>dato6</td>
+                </tr>
+            </tbody>
+        </table> <br><br>
+        <table border="1" id="texto">
+            <caption>Uso de Colspan</caption>
+            <tr>
+                <th>Columnaq</th><th>Columna2</th><th>Columna3</th>
+            </tr>
+            <tr>
+                <td colspan="2">Dato1</td>
+                <td>Dato2</td>
+            </tr>
+            <tr>
+                <td>Dato3</td>
+                <td colspan="2">Dato4</td>
+            </tr>
+            <tr>
+                <td colspan="3">Dato5</td>
+            </tr>
+        </table><br><br>
+        <table border="1" id="texto">
+            <caption>Uso de Rowspan</caption>
+            <tr>
+                <th>Colimna1</th>
+                <th>Colimna2</th>
+                <th>Colimna3</th>                
+            </tr>
+            <tr>
+                <td rowspan="2">Dato1</td>
+                <td>Dato2</td>
+                <td rowspan="2">Dato3</td>
+            </tr>
+            <tr>
+                <td>Dato4</td>
+            </tr>
+            <tr>
+                <td colspan="2">Dato5</td>
+                <td rowspan="2">Dato6</td>
+            </tr>
+            <tr>
+                <td>Dato7</td>
+                <td>Dato8</td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2">Dato9</td>
+                <td>Dato10</td>
+            </tr>
+            <tr>
+                <td>Dato11</td>
+            </tr>
+        </table><br><br>
+        <table border="1" id="texto">
+            <caption>Fusion de filas</caption>
+            <tr>
+                <th>Colimna1</th>
+                <th>Colimna2</th>
+                <th>Colimna3</th>
+                <th>Colimna4</th>
+            </tr>
+            <tr>
+                <td>Dato1</td>
+                <td>Dato2</td>
+                <td rowspan="3">Datos3</td>
+                <td>Dato4</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Datos5</td>
+                <td>Dato6</td>
+                <td rowspan="3">Datos7</td>
+            </tr>
+            <tr>
+                <td>Dato8</td>
+            </tr>
+            <tr>
+                <td>Dato9</td>
+                <td>Dato10</td>
+                <td>Dato11</td>
+            </tr>
+        </table><br><br>
+        <table border="1" id="texto">
+            <caption>Fusion de Columnas</caption>
+            <tr>
+                <th>Colimna1</th>
+                <th>Colimna2</th>
+                <th>Colimna3</th>
+                <th>Colimna4</th>
+            </tr>
+            <tr>
+                <td colspan="3">Dato1</td>
+                <td>Dato2</td>
+            </tr>
+            <tr>
+                <td>Dato3</td>
+                <td colspan="2">Dato4</td>
+                <td>Dato5</td>
+            </tr>
+            <tr>
+                <td colspan="4">Dato6</td>
+            </tr>
+            <td>Dato7</td>
+            <td>Dato8</td>
+            <td>Dato9</td>
+            <td>Dato10</td>
+            <tr>
+
+            </tr>
+        </table>
+    </div>
+    <div>
+        <a href="Inicio.HTML" > Volver a Inicio  </a> 
+        <h5>Ximena Paola Rojas Chávez</h5>
+     </div>
+</body>
+</html>
